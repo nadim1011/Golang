@@ -5,9 +5,15 @@ import "fmt"
 func mul(n1 int, n2 int) int {
 	return n1 * n2
 }
+func cal(n1 int, n2 int) (int, int) {
+	return n1 * n2, n1 + n2
+}
 func main() {
 	a, b := 3, 8
 
 	x := mul(a, b)
 	fmt.Println(x)
+	s, ss := cal(a, b)
+	fmt.Println(s)
+	fmt.Println(ss)
 }

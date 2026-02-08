@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func mul(n1 int, n2 int) {
+	fmt.Println(n1 * n2)
+}
+func main() {
+	a, b := 3, 8
+	//b := 4
+	mul(a, b)
+}
